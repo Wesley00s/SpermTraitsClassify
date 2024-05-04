@@ -1,0 +1,25 @@
+CREATE VIEW data_view AS
+SELECT
+    id,
+    idade,
+    peso,
+    ec,
+    ce,
+    temp_retal,
+    temp_amb,
+    umidade,
+    mov_flanco,
+    hora,
+    turbilhao,
+    mot_moveis,
+    vigor,
+    volume,
+    zptz_106,
+    zptz_totais,
+    def_mai,
+    def_mai_percent,
+    def_men,
+    def_men_percent,
+    normais,
+    normais_percent
+FROM data;
